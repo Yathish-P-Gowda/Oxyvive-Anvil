@@ -244,12 +244,12 @@ db_schema:
     - name: oxi_country
       admin_ui: {width: 200, order: 13}
       type: string
-    - name: oxi_dob
-      admin_ui: {width: 200, order: 14}
-      type: date
     - name: oxi_gender
       admin_ui: {width: 200, order: 15}
       type: string
+    - name: oxi_dob
+      admin_ui: {width: 200, order: 16}
+      type: datetime
   oxi_wallet:
     title: oxi_wallet
     client: full
