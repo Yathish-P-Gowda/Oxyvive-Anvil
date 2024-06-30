@@ -377,5 +377,8 @@ db_schema:
     - name: oxi_session
       admin_ui: {width: 200, order: 7}
       type: number
+    - name: oxi_payable_to
+      admin_ui: {width: 200, order: 8}
+      type: string
     title: Oxi_reports
 uplink_visible: true
