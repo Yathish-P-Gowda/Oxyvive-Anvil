@@ -352,4 +352,30 @@ db_schema:
     - name: oxi_book_date
       admin_ui: {width: 200, order: 4.5}
       type: date
+  oxi_reports:
+    client: none
+    server: full
+    columns:
+    - name: oxi_patient_name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: oxi_doctor_name
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: oxi_service_type
+      admin_ui: {width: 200, order: 3}
+      type: string
+    - name: oxi_bank_details
+      admin_ui: {width: 200, order: 4}
+      type: string
+    - name: oxi_email
+      admin_ui: {width: 200, order: 5}
+      type: string
+    - name: oxi_price
+      admin_ui: {width: 200, order: 6}
+      type: number
+    - name: oxi_session
+      admin_ui: {width: 200, order: 7}
+      type: number
+    title: Oxi_reports
 uplink_visible: true
