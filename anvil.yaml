@@ -380,5 +380,8 @@ db_schema:
     - name: oxi_payable_to
       admin_ui: {width: 200, order: 8}
       type: string
+    - name: oxi_id
+      admin_ui: {width: 200, order: 9}
+      type: string
     title: Oxi_reports
 uplink_visible: true
