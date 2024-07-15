@@ -383,5 +383,11 @@ db_schema:
     - name: oxi_id
       admin_ui: {width: 200, order: 9}
       type: string
+    - name: oxi_booking_id
+      admin_ui: {width: 200, order: 10}
+      type: string
+    - name: oxi_address
+      admin_ui: {width: 200, order: 11}
+      type: string
     title: Oxi_reports
 uplink_visible: true
