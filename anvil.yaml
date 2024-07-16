@@ -331,15 +331,12 @@ db_schema:
     - name: book_time
       admin_ui: {width: 200}
       type: string
-    - name: service_type
-      admin_ui: {width: 200, order: 5}
+    - name: oxi_service_type
+      admin_ui: {order: 4, width: 200}
       type: string
     - name: user_id
       admin_ui: {width: 200, order: 7}
       type: string
-    - name: book_date
-      admin_ui: {width: 200, order: 8}
-      type: date
     - name: serviceProvider_id
       admin_ui: {width: 200, order: 9}
       type: string
@@ -352,6 +349,24 @@ db_schema:
     - name: oxi_book_date
       admin_ui: {width: 200, order: 4.5}
       type: date
+    - name: oxi_doctor_name
+      admin_ui: {width: 200, order: 8}
+      type: string
+    - name: oxi_price
+      admin_ui: {width: 200, order: 9}
+      type: number
+    - name: oxi_session
+      admin_ui: {width: 200, order: 10}
+      type: number
+    - name: oxi_id
+      admin_ui: {width: 200, order: 11}
+      type: string
+    - name: oxi_address
+      admin_ui: {width: 200, order: 12}
+      type: string
+    - name: oxi_booking_id
+      admin_ui: {width: 200, order: 13}
+      type: string
   oxi_reports:
     client: none
     server: full
