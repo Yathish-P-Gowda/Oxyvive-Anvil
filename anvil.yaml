@@ -343,8 +343,8 @@ db_schema:
     - name: slot_id
       admin_ui: {width: 200}
       type: number
-    - name: username
-      admin_ui: {width: 200}
+    - name: oxi_username
+      admin_ui: {order: 2, width: 200}
       type: string
     - name: oxi_book_date
       admin_ui: {width: 200, order: 4.5}
@@ -359,13 +359,13 @@ db_schema:
       admin_ui: {width: 200, order: 10}
       type: number
     - name: oxi_id
-      admin_ui: {width: 200, order: 11}
+      admin_ui: {order: 11, width: 200}
       type: string
     - name: oxi_address
       admin_ui: {width: 200, order: 12}
       type: string
-    - name: oxi_booking_id
-      admin_ui: {width: 200, order: 13}
+    - name: oxi_book_id
+      admin_ui: {order: 13, width: 200}
       type: string
   oxi_reports:
     client: none
