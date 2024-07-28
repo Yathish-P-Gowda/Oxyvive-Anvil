@@ -367,6 +367,12 @@ db_schema:
     - name: oxi_book_id
       admin_ui: {order: 13, width: 200}
       type: string
+    - name: oxi_another_person_name
+      admin_ui: {width: 200, order: 14}
+      type: string
+    - name: oxi_another_person_number
+      admin_ui: {width: 200, order: 15}
+      type: number
   oxi_reports:
     client: none
     server: full
